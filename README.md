@@ -25,4 +25,19 @@ has list of files containing python and javascript files, the gist should have t
 tags/badges).
 - Forks: Username/Avatar of of the last 3 users who forked it with avatar linking to the fork.
 
-If time is the constraint it’s preferable to mention the potential improvements.
+### Optional Features
+
+- A feature to Sort all the gists of the user. (by no. of Stars or Forks ).
+- Search gist by title or file type.
+- Use a build tool like webpack or browserify to handle all the assets based on dev or prod environments.
+- Feel free to use your favourite UI/UX frameworks and tools in design and development.
+
+
+### Extra Features
+- Display and keep track of API hits. (HTML5 Localstorage)
+- Filter gists based on file type tags.
+- Custom elegant design, fonts and icons to make web app more user-friendly.
+- You may add portfolio activity comprising awesome work you have done on web application(s).
+- Use your imagination and add features which would make things easier for end users. 
+
+
