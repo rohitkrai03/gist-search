@@ -17,7 +17,7 @@ These include:
 
 ### Details
 
-Use the Github Gist API, to create a single-page app with a Javascript framework of your choice (vue.js/react preferred).
+Use the Github Gist API, to create a single-page app with a Javascript framework of your choice (vue.js/react.js preferred).
 
 - List: On entering a github username, it should be able to fetch a full list of public gists by that user.
 - Filetype: Convert the filetypes of the files in the gist into a tag/badge, (e.g, if the returned gist
