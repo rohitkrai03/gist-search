@@ -1,0 +1,12 @@
+<div id="search-box">
+  <div class="input-group col-md-12">
+    <input #searchBox type="text" class="form-control input-lg" placeholder="Search"
+      (input)="sendSearch(searchBox.value)"/>
+    <span class="input-group-btn">
+      <button (click)="sendSearch(searchBox.value)" class="btn btn-info btn-lg" type="button">
+        <i class="fas fa-search"></i>
+      </button>
+    </span>
+  </div>
+</div>
+
