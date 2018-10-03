@@ -1,0 +1,16 @@
+<div *ngIf="profile">
+  <img src={{profile.avatar_url}} height="200" width="200">
+  <p>{{profile.name}}</p>
+  <p>{{profile.login}}</p>
+  <table>
+    <tr>
+      <th>Attribute</th>
+      <th>Value</th>
+    </tr>
+  
+    <tr *ngFor = "let item of genArray(profile)">
+      <td>{{item.key}}</td>
+      <td>{{item.value}}</td>
+    </tr>
+  </table>
+</div>

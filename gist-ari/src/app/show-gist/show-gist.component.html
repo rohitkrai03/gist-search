@@ -1,0 +1,14 @@
+<div *ngIf="gists">
+  <table>
+    <tr>
+      <th>Attribute</th>
+      <th>Value</th>
+    </tr>
+
+    <tr *ngFor = "let item of genArray(gists)">
+      <td>{{item.key}}</td>
+      <td>{{item.value}}</td>
+    </tr>
+  </table>
+  </div>
+  <p>djsaddbckjdbsc</p>

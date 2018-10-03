@@ -1,0 +1,14 @@
+<div *ngIf="repos">
+    <table>
+      <tr>
+        <th>Attribute</th>
+        <th>Value</th>
+      </tr>
+  
+      <tr *ngFor = "let item of genArray(repos)">
+        <td>{{item.key}}</td>
+        <td>{{item.value}}</td>
+      </tr>
+    </table>
+    </div>
+    <p>repo le lo</p>
